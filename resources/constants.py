@@ -14,7 +14,7 @@ from data import os_data
 class Constants:
     def __init__(self):
         # Patcher Versioning
-        self.patcher_version = "0.4.5"  # OpenCore-Legacy-Patcher
+        self.patcher_version = "0.4.4"  # OpenCore-Legacy-Patcher
         self.patcher_support_pkg_version = "0.3.9"  #  PatcherSupportPkg
         self.url_patcher_support_pkg = "https://github.com/dortania/PatcherSupportPkg/releases/download/"
         self.nightly_url_patcher_support_pkg = "https://nightly.link/dortania/PatcherSupportPkg/workflows/build/master/"
@@ -23,7 +23,7 @@ class Constants:
         self.repo_link = "https://github.com/dortania/OpenCore-Legacy-Patcher"
         self.repo_link_latest = f"{self.repo_link}/releases/tag/{self.patcher_version}"
         self.copyright_date = "Copyright © 2020-2022 Dortania"
-        self.installer_pkg_url = f"{self.repo_link_latest}/AutoPkg-Assets.pkg.zip"
+        self.installer_pkg_url = f"{self.repo_link}/releases/download/{self.patcher_version}/AutoPkg-Assets.pkg"
         self.installer_pkg_url_nightly = "http://nightly.link/dortania/OpenCore-Legacy-Patcher/workflows/build-app-wxpython/main/AutoPkg-Assets.pkg.zip"
 
         # OpenCore Versioning
