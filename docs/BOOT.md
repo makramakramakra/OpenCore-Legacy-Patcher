@@ -2,7 +2,7 @@
 
 Now we finally get to boot OpenCore!
 
-Reboot machine while holding `Option` to select the EFI Boot entry with the OpenCore icon (holding the `Control` key will make this the default boot entry):
+Reboot machine while holding `Option` to select the EFI Boot entry with the OpenCore icon (holding the `Control` key while pressing 'Enter' will make this the default boot entry):
 
 * This will be the Mac Boot Picker
 
