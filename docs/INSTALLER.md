@@ -10,6 +10,8 @@ With OpenCore Legacy Patcher, our new GUI includes a download menu for macOS ins
 
 * [OpenCore Legacy Patcher Release Apps](https://github.com/dortania/OpenCore-Legacy-Patcher/releases)
 
+(Because of special restrictions when running Ventura at the moment, we recommend to download OpenCore Legacy Patcher 0.6.1 if you solely want to install  Big Sur or Monterey.)
+
 For this guide, we'll be using the standard OpenCore-Patcher (GUI).
 
 Once downloaded, open the app and you should be greeted by this menu:
